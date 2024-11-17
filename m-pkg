@@ -3,7 +3,9 @@
 ############################################
 #        Project : T-Megapackage           #
 #          author : Ashish                 #
-#  EMAIL : ashishsingh103020@gmail.com     #
+#  EMAIL :  pip-x-wizard.ch@pm.me          #
+#           git@github.com:pip-x-wizard/
+install-kali-termux.git
 ############################################
 
 clear
@@ -465,7 +467,7 @@ elif [[ $n == 19 ]]; then
 	      clear
 	      cd $HOME
 	      apt-get install python -y
-	      git clone https://github.com/Mebus/cupp.git 
+	      git clone git@github.com:pip-x-wizard/install-kali-termux.git 
 	      cd cupp
 	      echo " "
 	      echo " "
@@ -479,11 +481,11 @@ elif [[ $n == 19 ]]; then
 
 elif [[ $n == 20 ]]; then
 
-	     DIR="$HOME/FakeRoot"
+	     DIR="$HOME/ROOT"
 		if [ -d "$DIR" ]
 	     then 
 	     cd $HOME
-	     cd FakeRoot
+	     cd #root
 	     python2 root.py
 
 	     else
